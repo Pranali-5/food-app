@@ -1,0 +1,19 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 4%;
+  padding-right: 4%;
+  border: 1px solid black;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.options h3 {
+  padding-left: 30px;
+  padding-right: 10px;
+}
+body {
+  background-color: rgb(192, 192, 185);
+}

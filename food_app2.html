@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="./styles/style1.css">
+<style>
+    img{
+        width: 300px;
+        margin-top: 20px;
+        margin-left: 40%;
+    }
+    p{
+        font-size:20;
+    }
+    #p{
+        text-align: center;
+    }
+    
+</style>
+<html>
+
+<body>
+    
+</body>
+
+</html>
+<script type="module">
+    import {navbar} from "./components/navbar.js";
+    document.body.innerHTML = navbar();
+    console.log(navbar);
+
+    import { getData, appendData } from "./scripts/showData.js";
+        
+        let response = getData("https://www.themealdb.com/api/json/v1/1/random.php");
+        console.log("random:",response)
+        response.then((data) => {
+
+            let parent = document.getElementById("data");
+            appendData(data, parent);
+            console.log(data);
+        })
+    
+</script>

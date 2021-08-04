@@ -1,0 +1,38 @@
+#search_div {
+  float: left;
+}
+#search {
+  cursor: pointer;
+  width: 40px;
+  margin-top: 10px;
+  height: 33px;
+}
+#search_box {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#query {
+  height: 28px;
+  float: left;
+  margin-top: 10px;
+  width: 400px;
+  margin-left: 35%;
+}
+#delicious_img {
+  margin-top: 50px;
+  margin-left: 35%;
+  width: 450px !important;
+}
+
+#food {
+  height: 200px;
+  width: 400px;
+  border: 1px solid black;
+  border-top: none;
+  overflow-y: scroll;
+  color: black;
+  background-color: white;
+  margin-top: 4.1%;
+  margin-left: 35%;
+}
